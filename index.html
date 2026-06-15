@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7codigo | Sistemas e Automações RPA</title>
+  <meta name="description" content="A 7codigo desenvolve sistemas sob medida e automações RPA para acelerar processos, reduzir custos e aumentar eficiência.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="matrix-bg" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand" aria-label="7codigo">
+        <span class="logo-mark" aria-hidden="true">&lt;7&gt;</span>
+        <span class="logo-text">codigo</span>
+      </div>
+      <a class="btn btn-ghost" href="#contato">Solicitar Diagnóstico</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="kicker">Desenvolvimento de sistemas + RPA</p>
+      <h1>Automatize o trabalho repetitivo.<br>Escalone o que gera resultado.</h1>
+      <p class="subtitle">
+        Criamos plataformas e bots inteligentes para eliminar gargalos operacionais, integrar ferramentas
+        e aumentar produtividade com segurança.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contato">Quero automatizar</a>
+        <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+      </div>
+      <ul class="stats">
+        <li><strong>+120</strong><span>fluxos automatizados</span></li>
+        <li><strong>98%</strong><span>redução de tarefas manuais</span></li>
+        <li><strong>24/7</strong><span>execução monitorada</span></li>
+      </ul>
+    </section>
+
+    <section id="servicos" class="container grid-3">
+      <article class="card">
+        <div class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+        </div>
+        <h2>Sistemas Sob Medida</h2>
+        <p>Web apps e painéis customizados para centralizar processos, dados e decisões.</p>
+      </article>
+      <article class="card">
+        <div class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+        </div>
+        <h2>Automações RPA</h2>
+        <p>Bots para executar rotinas em ERPs, CRMs, planilhas e portais sem intervenção humana.</p>
+      </article>
+      <article class="card">
+        <div class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 4l7 4v8l-7 4-7-4V8l7-4zM9 12l2 2 4-4"/></svg>
+        </div>
+        <h2>Integrações & Observabilidade</h2>
+        <p>Integramos APIs e implantamos monitoramento para garantir performance e rastreabilidade.</p>
+      </article>
+    </section>
+
+    <section id="tecnologias" class="container tech-stack">
+      <h2>Tecnologias que trabalhamos</h2>
+      <p class="tech-intro">Construímos soluções com foco em performance, automação e escalabilidade.</p>
+      <div class="tech-grid">
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+          </div>
+          <h2>Python</h2>
+          <p>Desenvolvimento de sistemas, scripts e automações empresariais robustas.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <img src="https://cdn-icons-png.flaticon.com/512/3094/3094946.png" alt="IA">
+          </div>
+          <h2>IA</h2>
+          <p>Agentes inteligentes, análise de dados e fluxos automatizados com LLMs.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <img src="https://cdn-icons-png.flaticon.com/512/3094/3094826.png" alt="API">
+          </div>
+          <h2>API</h2>
+          <p>Integrações entre sistemas com APIs REST para operações seguras e ágeis.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919853.png" alt="Docker">
+          </div>
+          <h2>Docker</h2>
+          <p>Padronização de ambientes e deploy confiável com containers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container flow">
+      <h2>Como entregamos</h2>
+      <div class="timeline">
+        <div><span>01</span><p>Mapeamento dos processos e pontos de perda.</p></div>
+        <div><span>02</span><p>Arquitetura da solução com foco em ROI rápido.</p></div>
+        <div><span>03</span><p>Implementação com ciclos curtos e entregas incrementais.</p></div>
+        <div><span>04</span><p>Monitoramento contínuo e evolução com dados reais.</p></div>
+      </div>
+    </section>
+
+    <section id="contato" class="container cta">
+      <h2>Pronto para transformar operação em vantagem competitiva?</h2>
+      <p>Fale com a 7codigo e receba um plano técnico para automatizar seu fluxo crítico.</p>
+      <a
+        class="btn btn-primary"
+        href="https://teams.microsoft.com/l/chat/0/0?users=rodrigues.tech%40hotmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Agendar reunião no Teams</a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> <span class="footer-logo">&lt;7&gt;</span>codigo. Sistemas e Automações RPA.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
